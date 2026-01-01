@@ -1,0 +1,38 @@
+.sb
+{   margin-top: 0px;
+    width: 100px;
+    height: 100vh;
+    background-color: rgb(214, 214, 214);
+    display: flex;
+    flex-direction: column;
+}
+.nv {
+    display: flex;
+    height: 40px;
+    width: 200px;
+    gap: 15px;
+    
+    align-items: center;
+    background-color: rgb(214, 214, 214);
+}
+
+button {
+    width: 200px;
+    height: 40px;
+ 
+    background-color: rgb(214, 214, 214);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+
+}
+button:hover {
+    background-color: rgb(170, 170, 170);
+    transition: 0.3s;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+}
